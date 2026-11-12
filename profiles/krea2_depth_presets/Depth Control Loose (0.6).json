@@ -1,0 +1,4 @@
+{
+    "control_net_weight": 0.6,
+    "help": "Relaxes the adherence to the depth map (Depth Control Weight 0.6): the composition is kept loosely and the prompt gets more creative freedom."
+}

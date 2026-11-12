@@ -1,0 +1,15 @@
+{
+  "name": "Krea 2 Depth ControlNet",
+  "version": "1.0.0",
+  "description": "Adds Krea 2 Turbo / RAW Depth ControlNet models (Patil/Krea-2-depth-controlnet). Generates a new image that keeps the 3D structure of a Control Image. The depth LoRA is downloaded automatically into the Krea 2 LoRA folder.",
+  "author": "WanGP community",
+  "type": "model",
+  "model_handlers": [".models.krea2_depth.krea2_depth_handler"],
+  "defaults": "./defaults",
+  "profiles": "./profiles",
+  "info_card": {
+    "tagline": "Depth-Guided Krea 2",
+    "description": "Upload any photo or render: Krea 2 regenerates it from your prompt while keeping its depth, perspective and composition.",
+    "details": "Requires Krea 2 (Turbo or RAW) and downloads the 862 MB depth Control LoRA on first use. Works best around 1 MP with real-perspective images."
+  }
+}

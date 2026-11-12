@@ -1,0 +1,4 @@
+{
+    "control_net_weight": 1.2,
+    "help": "Tightens the adherence to the depth map (Depth Control Weight 1.2), at some cost to image quality."
+}

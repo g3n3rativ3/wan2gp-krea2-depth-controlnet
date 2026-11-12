@@ -1,0 +1,16 @@
+{
+    "model": {
+        "name": "Krea 2 Turbo Depth ControlNet",
+        "architecture": "krea2_turbo_depth",
+        "description": "Krea 2 Turbo (8 steps) guided by the depth map of a Control Image, using the Patil/Krea-2-depth-controlnet Control LoRA: the new image keeps the 3D structure and composition of the Control Image while its content and style follow the prompt. The 862 MB depth LoRA is downloaded automatically into the Krea 2 LoRA folder.",
+        "URLs": "krea2_turbo"
+    },
+    "prompt": "a cozy cabin interior at dusk, warm lamp light, wooden walls, cinematic photo",
+    "negative_prompt": "",
+    "video_prompt_type": "DV",
+    "control_net_weight": 1.0,
+    "resolution": "1024x1024",
+    "batch_size": 1,
+    "num_inference_steps": 8,
+    "guidance_scale": 0
+}
